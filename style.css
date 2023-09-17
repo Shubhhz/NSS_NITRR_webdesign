@@ -1,0 +1,334 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+ }
+ html {
+    width: 100%;
+    height: 100%;
+
+ }
+ body{
+   display: flex;
+   flex-direction: column;
+ }
+ nav{
+    height: 9vh;
+    width: 100%;
+  background-color:rgb(72, 72, 72) ;
+    display: flex;
+    position: fixed;
+    z-index: 150;
+  
+ }
+ .lft-nav{
+    background-color: #F6F6F6; 
+    width: 35%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    padding: 5px 3%;
+    border-radius: 0 5px 5px 0  ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+ }
+ .lft-nav img{
+    
+    height: 90%;
+ }
+ .lft-nav .textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .lft-nav .textbox h1{
+    font-size: 22px;
+    text-transform: uppercase;
+ }
+ .cntr-nav{
+    /* background-color: purple; */
+    background-color: rgb(94, 94, 94);
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+ } 
+ .cntr-nav a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all ease 0.8s;
+ }
+ .ryt-nav{
+    /* background-color: rebeccapurple; */
+    background-color: rgb(72, 72, 72);
+      width: 20%;
+      height: 100%;
+      display: flex;
+      gap:2%;
+      align-items: center;
+      padding: 0 2%;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      
+     
+      
+ }
+ .ryt-nav #searchbox{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    height: 40%;
+    border-radius: 5px;
+    padding: 2px 3%;
+    gap: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ #searchbox input{
+    background: none;
+    outline: none;
+    border: none;
+    width: 100%;
+ }
+ #searchbox i{
+    outline: none;
+    background: none;
+    border: none;
+ }
+ .ryt-nav button{
+    width: 30%;
+    height: 40%;
+    border-radius: 5px;
+   background-color: #F6F6F6;
+   font-weight: 500;
+   outline: none;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+ }
+ /* <-------------- navbar completed --------------> */
+ .main{
+    background-color: rgb(94, 94, 94);
+    width: 100%;
+    height: 90vh ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+   
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+ .main .leftside{
+   
+    height: 100%;
+    width: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+
+ .leftside .content {
+    width: 90%;
+ }
+ .leftside .content h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    width: 100%;
+    color: #F6F6F6;
+    
+ }
+ .content p{
+    font-weight: 400;
+    width: 100%;
+    color: #F6F6F6;
+ }
+ .main .rightside{
+   height: 100%;
+   width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/NSS  HOME PAGE/images/nsslogo png.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+ }
+  #secondmain{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+  }
+  #secondmain .content h1{
+   font-size: 60px;
+  }
+  #secondmain .content{
+   color: white;
+   
+   
+  }
+  #secondmain .content p{
+   font-size: 20px;
+   width: 80%;
+  }
+  #secondmain img{
+   width: 50%;
+   border-radius: 5%;
+  }
+ 
+  /* <------thirdmain----> */
+  #thirdmain{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10%;
+  }
+  #thirdmain .content h1{
+   font-size: 60px;
+  }
+  #thirdmain .content{
+   color: white;
+   
+   
+  }
+  #thirdmain .content p{
+   font-size: 20px;
+   width: 80%;
+  }
+  #thirdmain img{
+   width: 50%;
+   border-radius: 5%;
+  }
+  /* <-----------fourth main----> */
+  #fourthmain{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+  }
+  #fourthmain .content h1{
+   font-size: 60px;
+  }
+  #fourthmain .content{
+   color: white;
+   
+   
+  }
+  #fourthmain .content p{
+   font-size: 20px;
+   width: 80%;
+  }
+  #fourthmain img{
+   width: 50%;
+   border-radius: 5%;
+  }
+
+  /* <----------- footer ----------> */
+  .footer{
+   padding: 50px 15% 10px;
+   /* border-top: 1px solid #333; */
+   color:  #fff;
+   background-color: #484848;
+}
+.footer h2{
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 30px;
+}
+.footer .col{
+   flex-basis: 25%;
+   flex-grow: 1;
+   margin-bottom: 20px;
+}
+.footer .col a{
+   display: block;
+   text-decoration: none;
+   color: #fff;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.footer .row{
+   display: flex;
+   align-items: flex-start;
+   padding: 10px 0;
+}
+.footer .Language-btn{
+   color: #fff;
+   padding: 10px 20px;
+}
+.footer .copyright-txt{
+   font-size: 14px;
+   margin-top: 20px;
+   margin-bottom: 1;
+}
+.copyright{
+   width: 30%;
+   height: 2vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   padding-bottom: 5%;
+}
+
+
+ /* <-------------- media queries-----------> */
+ @media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+    }
+
+    .lft-nav, .cntr-nav, .ryt-nav {
+        width: 100%;
+        font-size: 15px;
+        border-radius: 0;
+        height: auto;
+    }
+    .ryt-nav{
+        display: flex;
+
+
+    }
+    .ryt-nav input {
+        padding: 3% 0;
+    }
+    .ryt-nav button {
+        padding: 2% 0;
+    }
+    .cntr-nav{
+        font-size: 15px;
+        padding: 3% 0;
+    }
+    
+    .leftside .content{
+        word-wrap: break-word;
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+
+
+ 
+
