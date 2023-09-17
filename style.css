@@ -161,7 +161,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/NSS  HOME PAGE/images/nsslogo png.png");
+    background-image: url("nsslogo png.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
