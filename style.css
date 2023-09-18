@@ -335,9 +335,11 @@
     }
     .main .leftside {
         width: 100%;
+        text-align: center;
     }
     .leftside .content h1 {
         font-size: 24px;
+        text-align: center;
     }
     .content p {
         font-size: 12px;
