@@ -292,7 +292,7 @@
 
  /* <-------------- media queries-----------> */
  @media screen and (max-width: 768px) {
-    /* Adjust styles for smaller screens here */
+ 
     nav {
         flex-direction: column;
         align-items: stretch;
@@ -326,7 +326,27 @@
         width: 100%;
         font-size: 10px;
     }
-}
+  
+    .main {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .main .leftside {
+        width: 100%;
+    }
+    .leftside .content h1 {
+        font-size: 40px;
+    }
+    .content p {
+        font-size: 16px;
+    }
+    .main .rightside {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+ }
 
 
 
