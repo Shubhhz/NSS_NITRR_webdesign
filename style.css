@@ -145,7 +145,7 @@
  }
  .leftside .content h1{
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 45px;
     width: 100%;
     color: #F6F6F6;
     
@@ -317,7 +317,7 @@
         padding: 2% 0;
     }
     .cntr-nav{
-        font-size: 15px;
+        font-size: 12px;
         padding: 3% 0;
     }
     
@@ -331,15 +331,16 @@
         flex-direction: column;
         height: auto;
         text-align: center;
+     padding: 1% 2%;
     }
     .main .leftside {
         width: 100%;
     }
     .leftside .content h1 {
-        font-size: 40px;
+        font-size: 24px;
     }
     .content p {
-        font-size: 16px;
+        font-size: 12px;
     }
     .main .rightside {
         width: 100%;
